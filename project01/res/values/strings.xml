@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Project01Activity!</string>
+    <string name="app_name">Project01</string>
+    <string name="title_text">제목</string>
+    <string name="title_edit">제목을 입력하세요.</string>
+    <string name="writer_text">작가</string>
+    <string name="writer_edit">작가를 입력하세요.</string>
+    <string name="publisher_text">출판사</string>
+    <string name="publisher_edit">출판사를 입력하세요.</string>
+    <string name="review_text">리뷰</string>
+    <string name="review_edit">리뷰를 입력하세요.</string>
+    <string name="review_button">리뷰 제출</string>
+    <string name="confirm_text">중복</string>
+	
+    <string name="logo_text">당신이 원하는 모든 리뷰</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/title_text"
+		android:layout_weight="0"
+		/>        
+    <EditText
+        android:id="@+id/title_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_edit"
+        android:layout_weight="3"
+      />
+    <Button 
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_text"
+        android:layout_weight="0"
+        />
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/writer_text"
+		/>        
+    <EditText
+        android:id="@+id/writer_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/writer_edit"
+      />	
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/publisher_text"
+		/>        
+    <EditText
+        android:id="@+id/publisher_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/publisher_edit"
+      />	
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/review_text"
+		/>        
+
+    <EditText
+        android:id="@+id/review_editText"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:hint="@string/review_edit"
+        android:singleLine="false" />
+	
+</LinearLayout>
+
+<RatingBar
+    android:id="@+id/ratingBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<Button
+    android:id="@+id/btn_submit"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/review_button"
+    />
+</LinearLayout>
